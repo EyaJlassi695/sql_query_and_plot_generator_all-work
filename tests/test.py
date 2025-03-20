@@ -1,3 +1,7 @@
+"""
+Unit tests for sql_query_and_plot_generator.
+"""
+
 import unittest
 from sql_query_generator.main import main
 from sql_query_generator.utils import clean_sql_query, execute_bigquery, generate_sql, recognize_tables
