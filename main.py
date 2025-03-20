@@ -10,7 +10,7 @@ import os
 def main():
     OPENAI_API_KEY = "****" # Replace with your OpenAI API key
     # Initialize the OpenAI client with the API key
-    client = OpenAI(api
+    client = OpenAI(api_key=OPENAI_API_KEY)
     
     # Set Google Cloud project ID
     PROJECT_ID = "project ID" # Replace with your project ID
