@@ -1,0 +1,8 @@
+Nous avons exploré l’approche RAG pour optimiser la requête de données structurées en limitant le contexte fourni au LLM afin de se concentrer sur les tables et colonnes les plus pertinentes. L’architecture repose sur la représentation du schéma de la base de données sous forme de dictionnaire, la génération d’embeddings avec google/embedding-001, l’indexation avec FAISS et la génération de requêtes SQL via GPT-4. Toutefois, les résultats obtenus n’étaient pas satisfaisants. Nous envisageons néanmoins d’intégrer cette méthode en complément pour améliorer les performances globales.
+
+Limitations :
+
+Indexation FAISS : L'approche aurait pu être améliorée avec un index plus performant, tel que Pinecone. La version gratuite offre 2 Go de stockage, mais dans notre cas, la taille de la base de données dépasse largement cette capacité.
+Qualité des embeddings : L’utilisation de google/embedding-001 n’a pas été suffisamment évaluée face à d’autres modèles d’embeddings.
+Temps de test insuffisant : Nous n’avons pas eu assez de temps pour tester plusieurs modèles et affiner l’approche.
+Manque d’optimisation de l’intégration : L’approche RAG seule n’a pas donné de bons résultats, et nous n’avons pas encore pleinement exploité son intégration avec l’approche initiale.
