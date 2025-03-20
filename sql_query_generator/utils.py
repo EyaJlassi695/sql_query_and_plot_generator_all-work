@@ -225,7 +225,7 @@ OPENAI_API_KEY = "****" # Replace with your OpenAI API key
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Set Google Cloud project ID
-PROJECT_ID = "capstone-448012"
+PROJECT_ID = "******"
 
 # Initialize BigQuery Client
 client_bq = bigquery.Client(project=PROJECT_ID)
