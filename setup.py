@@ -1,3 +1,9 @@
+"""
+Setup script for sql_query_and_plot_generator.
+
+This file configures the package installation and dependencies.
+"""
+
 from setuptools import setup, find_packages
 import codecs
 
