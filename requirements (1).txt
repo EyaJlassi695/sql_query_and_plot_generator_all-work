@@ -1,0 +1,6 @@
+google-cloud-bigquery==3.29.0
+db-dtypes==1.4.1
+streamlit==1.42.2
+openai==1.63.2
+matplotlib==3.10.1
+seaborn==0.13.2
