@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="LLM-for-Data-Analysis",  # Use a meaningful, lowercase name
+    name="sql_query_and_plot_generator",  # Use a meaningful, lowercase name
     version="0.1.0",
     author="Wiem AMDOUNI","Mohamed Amine BESBES","Eya JLASSI","Yassine MKAOUAR"
     author_email=amdouniwiem1@gmail.com","medaminbesbes91@gmail.com","eyajlassi2306@gmail.com","yassine.mkaouar15@gmail.com",
@@ -27,7 +27,7 @@ setup(
     python_requires=">=3.6",
     entry_points={
         "console_scripts": [
-            "your_project=LLM-for-Data-Analysis.main:main_function",  # Replace with your actual function
+            "sql_query_and_plot_generator=sql_query_and_plot_generator.main:main",
         ],
     },
 )
