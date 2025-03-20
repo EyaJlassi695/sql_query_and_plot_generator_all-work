@@ -15,7 +15,8 @@ setup(
     description="A Python package for SQL query generation and visualization",
     long_description=codecs.open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/EyaJlassi695/LLM-for-Data-Analysis",  # Replace with your actual GitHub repo
+    # Replace with your actual GitHub repo
+    url="https://github.com/EyaJlassi695/LLM-for-Data-Analysis",
     packages=find_packages(),
     install_requires=[
         "numpy",
