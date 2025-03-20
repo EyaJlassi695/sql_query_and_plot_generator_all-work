@@ -1,3 +1,9 @@
+"""
+Main module for SQL Query and Plot Generator.
+
+This script provides a Streamlit UI to generate SQL queries and visualize results.
+"""
+
 import re
 from openai import OpenAI
 import matplotlib.pyplot as plt
