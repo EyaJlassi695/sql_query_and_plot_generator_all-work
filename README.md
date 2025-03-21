@@ -22,17 +22,30 @@ We've developed a **dual-LLM prompt-flow** solution:
 
 This two-step method optimizes SQL query generation by avoiding the common context-length limitations of single-step prompting.
 
-### 📊 Python Visualization (`Python Viz Code`)
+### 📊 Plot generator (`Plot_generator`)
 
 Our Python visualization pipeline is designed to automatically:
 
 - Generate SQL queries from user input.
 - Execute queries and retrieve data from BigQuery.
 - Generate initial data visualizations.
-
+-give comments and analysis.
 Currently serving as a proof-of-concept (our second implementation path), this component offers foundational visualization capabilities that can be significantly expanded in future iterations.
 
----
+### 📊 Feedback Loop (`Feedback_loop`)
+To expand the dataset for model training, a feedback loop was incorporated, allowing the user to evaluate whether the generated query matches their intended query. If it does, the query is added to the dataset.
+
+### sql_query_and_plot_generator
+
+This project combines all the explored work into a final product that is capable of:
+
+- **Generating SQL queries**  
+- **Creating plot visualizations**  
+- **Commenting on the results**  
+- **Incorporating a feedback loop**: Users can evaluate whether the generated query matches their intended query. If it does, the query is added to the dataset, helping expand the model's training data.
+
+The project brings together multiple components into a single solution for automated SQL query generation, data visualization, and continuous improvement through user feedback.
+
 
 ## 🔮 Future Enhancements & Roadmap
 
