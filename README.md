@@ -35,7 +35,7 @@ Currently serving as a proof-of-concept (our second implementation path), this c
 ### 📊 Feedback Loop (`Feedback_loop`)
 To expand the dataset for model training, a feedback loop was incorporated, allowing the user to evaluate whether the generated query matches their intended query. If it does, the query is added to the dataset.
 
-### sql_query_and_plot_generator
+### 🗃️sql_query_and_plot_generator
 
 This project combines all the explored work into a final product that is capable of:
 
